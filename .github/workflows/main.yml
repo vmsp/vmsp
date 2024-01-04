@@ -1,8 +1,9 @@
-name: "Fetch the blog's RSS feed and update the README"
+name: fetch-rss-feed
 
 on:
   schedule:
     - cron: 0 8 * * *
+  workflow_dispatch:
 
 jobs:
   update:
@@ -10,7 +11,7 @@ jobs:
     steps:
       - uses: JasonEtco/rss-to-readme@v2
         with:
-          feed-url: https://jasonet.co/rss.xml
+          feed-url: https://0x1.pt/feed.xml
           readme-section: feed
           empty-commits: false
           template: "* [{{ title }}]({{ link }}))"
