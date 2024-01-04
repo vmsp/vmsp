@@ -1,4 +1,4 @@
-name: fetch-rss-feed
+name: Fetch blog RSS feed
 
 on:
   schedule:
