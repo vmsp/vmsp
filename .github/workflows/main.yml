@@ -14,4 +14,4 @@ jobs:
           feed-url: https://0x1.pt/feed.xml
           readme-section: feed
           empty-commits: false
-          template: "* {{ published | date(\"YYYY/MM/DD\") }} [{{ title }}]({{ link }})"
+          template: "* {{ pubDate | date(\"YYYY/MM/DD\") }} [{{ title }}]({{ link }})"
