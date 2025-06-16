@@ -1,4 +1,4 @@
-### Vitor M. de Sousa Pereira
+### Vitor Sousa Pereira
 
 Here are a couple of my blog's latest posts:
 
